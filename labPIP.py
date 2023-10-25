@@ -8,8 +8,7 @@ print("-----"*20)
 
 
 #bonus
-print(Fore.RED+Back.WHITE+Style.BRIGHT)
-tprint(f" Real Madrid ",font="fancy",decoration="random",)
-
-print(Fore.YELLOW+Back.GREEN+Style.DIM,end="")
-tprint(" Man City ",font="fancy2",decoration="random")
+text1=text2art(" Real Madrid ",font="fancy",decoration="random",)
+print(Fore.RED+Back.WHITE+Style.BRIGHT+text1+Style.RESET_ALL)
+text2=text2art(" Man City ",font="fancy2",decoration="random")
+print(Fore.YELLOW+Back.GREEN+Style.DIM+text2+Style.RESET_ALL)
